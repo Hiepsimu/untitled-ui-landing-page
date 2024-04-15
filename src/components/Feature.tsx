@@ -29,7 +29,7 @@ const FeatureContent = () => {
           <div className="flex lg:flex-row flex-col justify-between w-full">
             <div className="flex-1 justify-center flex flex-col gap-8">
               <InView animateClassName="md:animate-fade-right animate-fade-up">
-                <Image src={mail} />
+                <Image alt="image" src={mail} />
 
                 <h2 className="text-gray-900 text-[30px] font-semibold">
                   Share team inboxes
@@ -40,19 +40,19 @@ const FeatureContent = () => {
                 </p>
                 <div className="flex flex-col pl-4 gap-4">
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Filter, export, and drilldown on the data quickly
                     </span>
                   </div>
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Always give customers a human to chat to
                     </span>
                   </div>
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Automate customer support and close leads faster
                     </span>
@@ -64,13 +64,13 @@ const FeatureContent = () => {
             <div className="flex-1 flex justify-end h-[616px] hidden lg:block">
               <div className="absolute right-5 md:right-10 lg:right-0 animate-fade-left">
                 <InView animateClassName="animate-fade-left">
-                  <Image src={logoMockupRight} className="" />
+                  <Image alt="image" src={logoMockupRight} className="" />
                 </InView>
               </div>
             </div>
             <div className="py-4 block lg:hidden">
               <InView animateClassName="animate-fade-up">
-                <Image src={logoMockupMobile} />
+                <Image alt="image" src={logoMockupMobile} />
               </InView>
             </div>
           </div>
@@ -80,13 +80,13 @@ const FeatureContent = () => {
             <div className="flex-1 flex justify-end h-[616px] ">
               <div className="absolute left-5 md:left-10 lg:left-0 hidden lg:block">
                 <InView animateClassName="animate-fade-right">
-                  <Image src={logoMockupLeft} />
+                  <Image alt="image" src={logoMockupLeft} />
                 </InView>
               </div>
             </div>
             <div className="flex-1 justify-center flex flex-col gap-8">
               <InView animateClassName="md:animate-fade-left animate-fade-up">
-                <Image src={thunder} />
+                <Image alt="image" src={thunder} />
 
                 <h2 className="text-gray-900 text-[30px] font-semibold">
                   Deliver instant answers
@@ -97,19 +97,19 @@ const FeatureContent = () => {
                 </p>
                 <div className="flex flex-col pl-4 gap-4">
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Keep your customers in the loop with live chat
                     </span>
                   </div>
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Embed help articles right on your website
                     </span>
                   </div>
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Customers never have to leave the page to find an answer
                     </span>
@@ -119,7 +119,7 @@ const FeatureContent = () => {
             </div>
             <div className="py-4 block lg:hidden">
               <InView animateClassName="animate-fade-up">
-                <Image src={logoMockupMobile} />
+                <Image alt="image" src={logoMockupMobile} />
               </InView>
             </div>
           </div>
@@ -128,7 +128,7 @@ const FeatureContent = () => {
           <div className="flex lg:flex-row flex-col justify-between items-center w-full">
             <div className="flex-1 justify-center flex flex-col gap-8">
               <InView animateClassName="md:animate-fade-right animate-fade-up">
-                <Image src={graph} />
+                <Image alt="image" src={graph} />
 
                 <h2 className="text-gray-900 text-[30px] font-semibold">
                   Manage your team with reports
@@ -140,19 +140,19 @@ const FeatureContent = () => {
                 </p>
                 <div className="flex flex-col pl-4 gap-4">
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Filter, export, and drilldown on the data quickly
                     </span>
                   </div>
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Save, schedule, and automate reports to your inbox
                     </span>
                   </div>
                   <div className="flex gap-4">
-                    <Image src={check} />
+                    <Image alt="image" src={check} />
                     <span className="text-gray-600 text-[18px] ">
                       Connect the tools you already use with 100+ integrations
                     </span>
@@ -164,13 +164,13 @@ const FeatureContent = () => {
             <div className="flex-1 flex justify-end  h-[616px] hidden lg:block">
               <div className="absolute right-5 md:right-10 lg:right-0 ">
                 <InView animateClassName="animate-fade-left">
-                  <Image src={logoMockupRight} />
+                  <Image alt="image" src={logoMockupRight} />
                 </InView>
               </div>
             </div>
             <div className="py-4 block lg:hidden">
               <InView animateClassName="animate-fade-up">
-                <Image src={logoMockupMobile} />
+                <Image alt="image" src={logoMockupMobile} />
               </InView>
             </div>
           </div>

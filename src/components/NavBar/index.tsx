@@ -43,7 +43,7 @@ const Navbar = () => {
               aria-label="logo"
             >
               <div className="text-black">
-                <Image src={logo} />
+                <Image alt="image" src={logo} />
               </div>
             </button>
 

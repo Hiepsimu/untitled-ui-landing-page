@@ -18,7 +18,7 @@ const HomeContent = () => {
         </p>
         <div className="flex gap-4 animate-fade-up">
           <button className="flex flex-row gap-2 rounded-lg px-6 py-4 text-base font-semibold text-primary ring-primary border-slate-300 border transition-all hover:ring-1">
-            <Image src={IconPlayCircle} />
+            <Image alt="image" src={IconPlayCircle} />
             <span className=" text-gray-600 font-semibold">Demo</span>
           </button>
           <button className="rounded-lg bg-primary px-6 py-4 text-base font-semibold text-white transition-all hover:bg-primary/70">
@@ -27,7 +27,7 @@ const HomeContent = () => {
         </div>
         <div className=" justify-center">
           <InView animateClassName="animate-fade-up">
-            <Image src={ImageMacbook} />
+            <Image alt="image" src={ImageMacbook} />
           </InView>
         </div>
       </div>

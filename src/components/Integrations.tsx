@@ -25,9 +25,9 @@ const IntegrationsContent = () => {
           </div>
         </InView>
         <div className="flex gap-4">
-          <Image src={IconVector} />
-          <Image src={IconSlack} />
-          <Image src={IconGGDrive} />
+          <Image alt="image" src={IconVector} />
+          <Image alt="image" src={IconSlack} />
+          <Image alt="image" src={IconGGDrive} />
         </div>
 
         <div>

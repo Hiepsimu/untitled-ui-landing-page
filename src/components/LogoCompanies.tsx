@@ -8,19 +8,19 @@ import IconLogo4 from "../assets/logo-company-4.svg";
 import IconLogo5 from "../assets/logo-company-5.svg";
 const LOGOS = [
   {
-    icon: <Image src={IconLogo1} />,
+    icon: <Image alt="image" src={IconLogo1} />,
   },
   {
-    icon: <Image src={IconLogo2} />,
+    icon: <Image alt="image" src={IconLogo2} />,
   },
   {
-    icon: <Image src={IconLogo3} />,
+    icon: <Image alt="image" src={IconLogo3} />,
   },
   {
-    icon: <Image src={IconLogo4} />,
+    icon: <Image alt="image" src={IconLogo4} />,
   },
   {
-    icon: <Image src={IconLogo5} />,
+    icon: <Image alt="image" src={IconLogo5} />,
   },
 ];
 
