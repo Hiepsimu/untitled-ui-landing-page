@@ -13,8 +13,44 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: "#7F56D9",
+        secondary: "#D5FAFC",
+        tertiary: "#EDE9FE",
+        quaternary: "#1DB5BE",
+      },
+      width: {
+        "1/7": (1 / 7) * 100 + "%",
+      },
+      gap: {
+        "1/7": (1 / 7) * 100 + "%",
+      },
+      margin: {
+        "1/7": (1 / 7) * 100 + "%",
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "octocat-wave": "octocat-wave 560ms ease-in-out",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        "octocat-wave": {
+          "0%, 100%": {
+            transform: "rotate(0)",
+          },
+          "20%, 60%": {
+            transform: "rotate(-25deg)",
+          },
+          "40%, 80%": {
+            transform: "rotate(10deg)",
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 };
 export default config;
